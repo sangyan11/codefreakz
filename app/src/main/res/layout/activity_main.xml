@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/baground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/baground" />
+
+    <ImageView
+        android:id="@+id/robo"
+        android:layout_width="107dp"
+        android:layout_height="186dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="@+id/baground"
+        app:layout_constraintTop_toTopOf="@+id/baground"
+        app:layout_constraintVertical_bias="0.288"
+        app:srcCompat="@drawable/robo" />
+
+    <ImageView
+        android:id="@+id/messagecloud"
+        android:layout_width="407dp"
+        android:layout_height="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/clou" />
+
+    <Button
+        android:id="@+id/ccppButton"
+        android:layout_width="239dp"
+        android:layout_height="42dp"
+        android:background="@android:color/black"
+        android:text="C/C++"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/baground"
+        app:layout_constraintEnd_toEndOf="@+id/baground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/baground"
+        app:layout_constraintVertical_bias="0.472"
+        android:onClick="ccppButton"/>
+
+    <Button
+        android:id="@+id/javaButton"
+        android:layout_width="239dp"
+        android:layout_height="42dp"
+        android:background="@android:color/black"
+        android:text="JAVA"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/baground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ccppButton"
+        app:layout_constraintVertical_bias="0.09"
+        android:onClick="javaButton"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="198dp"
+        android:layout_height="140dp"
+        android:text="what do you want to learn?"
+        android:textSize="30sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/messagecloud"
+        app:layout_constraintEnd_toEndOf="@+id/messagecloud"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/messagecloud"
+        app:layout_constraintTop_toTopOf="@+id/baground"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/pythonButton"
+        android:layout_width="239dp"
+        android:layout_height="42dp"
+        android:background="@android:color/black"
+        android:text="PYTHON"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/javaButton"
+        app:layout_constraintVertical_bias="0.09"
+        android:onClick="pythonButton"/>
+
+    <Button
+        android:id="@+id/androiddevelopmentButton"
+        android:layout_width="239dp"
+        android:layout_height="42dp"
+        android:background="@android:color/black"
+        android:text="ANDROID DEVELOPMENT"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pythonButton"
+        app:layout_constraintVertical_bias="0.09"
+        android:onClick="androiddevelopmentButton"/>
+
+    <Button
+        android:id="@+id/webdevelopmentButton"
+        android:layout_width="239dp"
+        android:layout_height="42dp"
+        android:background="@android:color/black"
+        android:text="WEB DEVELOPMENT"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/androiddevelopmentButton"
+        app:layout_constraintVertical_bias="0.09"
+        android:onClick="webdevelopmentButton"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
