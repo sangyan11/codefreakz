@@ -1,20 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ccpppage">
+    android:orientation="vertical" >
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baground" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_margin="25dp"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        app:videoId="divcpsS3Blo"
+        tools:ignore="MissingClass" />
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        app:videoId="Umm1ZQ5ltZw"
+        tools:ignore="MissingClass" />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        app:autoPlay="false"
+        app:showFullScreenButton="true"
+        app:showYouTubeButton="false"
+        app:videoId="x3XQS3unskM"
+        tools:ignore="MissingClass" />
+
+
+</LinearLayout>
