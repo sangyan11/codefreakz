@@ -32,6 +32,18 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
         item.add(CustomClass("Web Development",R.drawable.weblogo))
         item.add(CustomClass("Machine Learning",R.drawable.mllogo))
 
+        item.add(CustomClass("Git/Github",R.drawable.git))
+        item.add(CustomClass("Competitive Programming",R.drawable.cplogo))
+        item.add(CustomClass("Engineering Subjects",R.drawable.engsubs))
+        item.add(CustomClass("Ds_Algo",R.drawable.dsa))
+        item.add(CustomClass("Kotlin",R.drawable.kotlinlogo))
+        item.add(CustomClass("Java Script",R.drawable.jslogo))
+        item.add(CustomClass("Articles",R.drawable.articles))
+        item.add(CustomClass("Free Cources",R.drawable.cource))
+
+
+
+
 
 
 
@@ -40,7 +52,7 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
 
         val person = findViewById<RecyclerView>(R.id.recycler_view)
         val adapter = Adapter(item,applicationContext,this)
-        person.layoutManager= LinearLayoutManager(applicationContext)
+        person.layoutManager= GridLayoutManager(applicationContext,2)
         person.adapter=adapter
     }
 
@@ -90,7 +102,9 @@ class MainActivity : AppCompatActivity(),Adapter.OnItemClickListener {
          val intent = Intent(this,webdevelopment::class.java)
          startActivity(intent)
      }
+
+     }
     }
-}
+
 
 

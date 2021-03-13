@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Elearning app</string>
+    <string name="AWS">
+        <a href="https://drive.google.com/drive/folders/1TB9FSL48q6ptRigfdrqBDkWzZEbDhn8e?usp=sharing">
+            AWS Cource
+        </a>
+    </string>
+    <string name="DotNET">
+        <a href="https://drive.google.com/drive/mobile/folders/1CTJ76dLhh4RjfF4G3he43in4XQN7fSZT?usp=sharing">
+         .NET Cource
+        </a>
+    </string>
+    <string name="SEO">
+        <a href="https://drive.google.com/drive/folders/1tDaUqSJttbbXtzJC96ls68hfDupRS0ai">
+         SEO FOR Beginners
+        </a>
+    </string>
+    <string name="KaliLinux">
+        <a href="https://drive.google.com/drive/folders/1FcMfvSYoN1PLpnxh0o4VPMuiYw183kuI">
+         Kali Linux
+        </a>
+    </string>
+
+<string name="WIFIPenetration">
+        <a href="https://drive.google.com/drive/folders/1lszEQkQjwzrjOLoHte-6I3Y8JLjT-sIQ">
+      WI-FI Penetration Testing
+        </a>
+    </string>
+
+    <string name="VideoEditing">
+        <a href="https://drive.google.com/drive/folders/0B40Zq8oPjgbsfjFFRXNTc1FOUWpLMkxQa3dmZ2g5cC13TEZ4a1JMR3dXdGtFVG1ZWTFuaEU?usp=sharing">
+         Adobe Premier Pro
+        </a>
+    </string>
+
 </resources>

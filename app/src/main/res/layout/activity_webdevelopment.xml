@@ -1,43 +1,79 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:layout_margin="20dp"
+    android:padding="30dp">
 
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:id="@+id/youtube_player_view"
+/>
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        app:autoPlay="false"
-        app:showFullScreenButton="true"
-        app:showYouTubeButton="false"
-        app:videoId="GLk7-imcjiI"
-        tools:ignore="MissingClass" />
+      >
 
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        app:autoPlay="false"
-        app:showFullScreenButton="true"
-        app:showYouTubeButton="false"
-        app:videoId="GeykycZ4Ixs"
-        tools:ignore="MissingClass" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="25dp"
-        app:autoPlay="false"
-        app:showFullScreenButton="true"
-        app:showYouTubeButton="false"
-        app:videoId="SI5ISZa0IL0"
-        tools:ignore="MissingClass" />
+            <Button
+                android:id="@+id/roadmap_btn"
+                android:onClick="Roadmap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FFA500"
+                android:padding="30dp"
+                android:text="Road Map"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FFA500"
+                android:padding="30dp"
+                android:text="Udemy Paid Course"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FFA500"
+                android:padding="30dp"
+                android:text="Udemy Free Course"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="#FFA500"
+                android:padding="30dp"
+                android:text="Project Ideas"
+                android:textColor="#000"
+                android:textStyle="bold" />
 
 
-</LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

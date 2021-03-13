@@ -3,11 +3,11 @@ package com.example.elearningapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class androiddevelopment : AppCompatActivity() {
-
+class EngSubs : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_androiddevelopment)
+        setContentView(R.layout.activity_eng_subs)
+
     }
 
 }
