@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "30970200531",
+    "project_id": "educationalapp-848aa",
+    "storage_bucket": "educationalapp-848aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30970200531:android:04872f5e7e64500c896f26",
+        "android_client_info": {
+          "package_name": "com.example.elearningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30970200531-fa5np5dqs9j5qhpkio3ktmkgfqirjbfd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elearningapp",
+            "certificate_hash": "8275824791b00ee98c95be23742357af56ceaa74"
+          }
+        },
+        {
+          "client_id": "30970200531-5gsh5ije7ga72h9hj0702kdc16718ss7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA5kV3TdpQk9S0_jOCXxfrxxXOEjEPqlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30970200531-5gsh5ije7ga72h9hj0702kdc16718ss7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
